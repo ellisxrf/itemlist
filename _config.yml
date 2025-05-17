@@ -1,12 +1,12 @@
 # Metadata
-title: "SirRandoo's Purchase List"
+title: "ellisxrf_'s Purchase List"
 favicon: assets/img/favicon.png
 description: A custom version of Toolkit's item list to support all the latest features of Utils.
 
 baseurl: '/itemlist' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ''
-github_username: 'sirrandoo'
+github_username: 'ellisxrf'
 
 # Item list settings
 #
@@ -25,19 +25,19 @@ store:
   traits:
     conflicts: true
     stats: true
-    karma: true
+    karma: false
     limit: true
     description: true
     usage: false
     mod: true
   kinds:
     mod: true
-    karma: true
+    karma: false
     usage: true
   items:
     category: true
-    weight: true
-    karma: true
+    weight: false
+    karma: false
     quantity: true
     mod: true
     usage: true
@@ -47,15 +47,15 @@ store:
   animals:
     usage: true
     mod: true
-    weight: true
+    weight: false
     quantity: true
-    karma: true
+    karma: false
 
 commands:
   # Whether or not the command list will display the command's shortcut disclaimer.
   shortcut: true
   # Whether or not the command list will display the command's required user level.
-  userlevel: true
+  userlevel: false
   # Whether or not the command list will display the command's uage.
   usage: true
   # Whether or not the command list will display the mod that added it.
